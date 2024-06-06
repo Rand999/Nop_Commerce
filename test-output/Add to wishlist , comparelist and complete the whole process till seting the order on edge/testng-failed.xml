@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Add to wishlist , comparelist and complete the whole process till seting the order on edge]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="add to wishlist(failed)">
+    <classes>
+      <class name="testcases.TC06_Add_to_wishlist">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+          <include name="Add_product_to_wishlist"/>
+        </methods>
+      </class> <!-- testcases.TC06_Add_to_wishlist -->
+    </classes>
+  </test> <!-- add to wishlist(failed) -->
+  <test thread-count="5" name="add to compare list(failed)">
+    <classes>
+      <class name="testcases.TC07_Add_to_compare_list">
+        <methods>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+          <include name="Add_product_to_compare_list"/>
+        </methods>
+      </class> <!-- testcases.TC07_Add_to_compare_list -->
+    </classes>
+  </test> <!-- add to compare list(failed) -->
+  <test thread-count="5" name="checkout - edge(failed)">
+    <classes>
+      <class name="testcases.TC09_CheckOut">
+        <methods>
+          <include name="Add_product_to_cart_then_checkout"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- testcases.TC09_CheckOut -->
+    </classes>
+  </test> <!-- checkout - edge(failed) -->
+</suite> <!-- Failed suite [Add to wishlist , comparelist and complete the whole process till seting the order on edge] -->

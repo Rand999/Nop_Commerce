@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search product , change currency and reset the password - on chrome - on firefox">
+    <parameter name="browser" value="firefox"/>
+
+
+    <test name="search">
+        <classes>
+            <class name="testcases.TC03_SearchFunction">
+                <methods>
+                    <include name="loginUserCanSearch_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="change currancy">
+        <classes>
+            <class name="testcases.TC08_Change_currency">
+                <methods>
+                    <include name="Convert_Currancy"/>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="reset password">
+        <classes>
+            <class name="testcases.TC03_ResetPassword_NewDesign">
+                <methods>
+                    <include name="Reset_password"/>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>

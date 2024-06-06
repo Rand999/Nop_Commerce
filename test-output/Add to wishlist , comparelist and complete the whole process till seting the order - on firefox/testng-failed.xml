@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Add to wishlist , comparelist and complete the whole process till seting the order - on firefox]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="checkout - firefox(failed)">
+    <classes>
+      <class name="testcases.TC09_CheckOut">
+        <methods>
+          <include name="Add_product_to_cart_then_checkout"/>
+          <include name="tearDown"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- testcases.TC09_CheckOut -->
+    </classes>
+  </test> <!-- checkout - firefox(failed) -->
+</suite> <!-- Failed suite [Add to wishlist , comparelist and complete the whole process till seting the order - on firefox] -->

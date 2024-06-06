@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="17" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-06T20:11:59 EET" name="Search product , change currency and reset the password - on chrome - on firefox" finished-at="2024-06-06T20:12:41 EET" duration-ms="42335">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T20:11:59 EET" name="search" finished-at="2024-06-06T20:12:16 EET" duration-ms="17352">
+      <class name="testcases.TC03_SearchFunction">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC03_SearchFunction@f736069]" started-at="2024-06-06T20:11:59 EET" name="setupDriver" finished-at="2024-06-06T20:12:11 EET" duration-ms="11974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginUserCanSearch_P()[pri:10, instance:testcases.TC03_SearchFunction@f736069]" started-at="2024-06-06T20:12:11 EET" name="loginUserCanSearch_P" description="Login users can search" finished-at="2024-06-06T20:12:16 EET" duration-ms="5364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserCanSearch_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC03_SearchFunction@f736069]" started-at="2024-06-06T20:12:16 EET" name="tearDown" finished-at="2024-06-06T20:12:16 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC03_SearchFunction -->
+    </test> <!-- search -->
+    <test started-at="2024-06-06T20:12:16 EET" name="change currancy" finished-at="2024-06-06T20:12:31 EET" duration-ms="15013">
+      <class name="testcases.TC08_Change_currency">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC08_Change_currency@4229bb3f]" started-at="2024-06-06T20:12:16 EET" name="setupDriver" finished-at="2024-06-06T20:12:24 EET" duration-ms="7743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Convert_Currancy()[pri:8, instance:testcases.TC08_Change_currency@4229bb3f]" started-at="2024-06-06T20:12:24 EET" name="Convert_Currancy" finished-at="2024-06-06T20:12:31 EET" duration-ms="7268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Convert_Currancy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC08_Change_currency@4229bb3f]" started-at="2024-06-06T20:12:31 EET" name="tearDown" finished-at="2024-06-06T20:12:31 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC08_Change_currency -->
+    </test> <!-- change currancy -->
+    <test started-at="2024-06-06T20:12:31 EET" name="reset password" finished-at="2024-06-06T20:12:41 EET" duration-ms="9943">
+      <class name="testcases.TC03_ResetPassword_NewDesign">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC03_ResetPassword_NewDesign@20ccf40b]" started-at="2024-06-06T20:12:31 EET" name="setupDriver" finished-at="2024-06-06T20:12:39 EET" duration-ms="7756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Reset_password()[pri:8, instance:testcases.TC03_ResetPassword_NewDesign@20ccf40b]" started-at="2024-06-06T20:12:39 EET" name="Reset_password" description="Complete" finished-at="2024-06-06T20:12:41 EET" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reset_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC03_ResetPassword_NewDesign@20ccf40b]" started-at="2024-06-06T20:12:41 EET" name="tearDown" finished-at="2024-06-06T20:12:41 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC03_ResetPassword_NewDesign -->
+    </test> <!-- reset password -->
+  </suite> <!-- Search product , change currency and reset the password - on chrome - on firefox -->
+  <suite started-at="2024-06-06T20:11:33 EET" name="Search product , change currency and reset the password - on chrome" finished-at="2024-06-06T20:11:58 EET" duration-ms="25845">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T20:11:33 EET" name="search" finished-at="2024-06-06T20:11:42 EET" duration-ms="9032">
+      <class name="testcases.TC03_SearchFunction">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC03_SearchFunction@505fc5a4]" started-at="2024-06-06T20:11:33 EET" name="setupDriver" finished-at="2024-06-06T20:11:36 EET" duration-ms="3382" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="loginUserCanSearch_P()[pri:10, instance:testcases.TC03_SearchFunction@505fc5a4]" started-at="2024-06-06T20:11:36 EET" name="loginUserCanSearch_P" description="Login users can search" finished-at="2024-06-06T20:11:42 EET" duration-ms="5647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUserCanSearch_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC03_SearchFunction@505fc5a4]" started-at="2024-06-06T20:11:42 EET" name="tearDown" finished-at="2024-06-06T20:11:42 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC03_SearchFunction -->
+    </test> <!-- search -->
+    <test started-at="2024-06-06T20:11:42 EET" name="change currancy" finished-at="2024-06-06T20:11:52 EET" duration-ms="10726">
+      <class name="testcases.TC08_Change_currency">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC08_Change_currency@5562c41e]" started-at="2024-06-06T20:11:42 EET" name="setupDriver" finished-at="2024-06-06T20:11:45 EET" duration-ms="3378" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Convert_Currancy()[pri:8, instance:testcases.TC08_Change_currency@5562c41e]" started-at="2024-06-06T20:11:45 EET" name="Convert_Currancy" finished-at="2024-06-06T20:11:52 EET" duration-ms="7345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Convert_Currancy -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC08_Change_currency@5562c41e]" started-at="2024-06-06T20:11:52 EET" name="tearDown" finished-at="2024-06-06T20:11:52 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC08_Change_currency -->
+    </test> <!-- change currancy -->
+    <test started-at="2024-06-06T20:11:52 EET" name="reset password" finished-at="2024-06-06T20:11:58 EET" duration-ms="6048">
+      <class name="testcases.TC03_ResetPassword_NewDesign">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC03_ResetPassword_NewDesign@73e22a3d]" started-at="2024-06-06T20:11:52 EET" name="setupDriver" finished-at="2024-06-06T20:11:56 EET" duration-ms="3455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Reset_password()[pri:8, instance:testcases.TC03_ResetPassword_NewDesign@73e22a3d]" started-at="2024-06-06T20:11:56 EET" name="Reset_password" description="Complete" finished-at="2024-06-06T20:11:58 EET" duration-ms="2585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reset_password -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC03_ResetPassword_NewDesign@73e22a3d]" started-at="2024-06-06T20:11:58 EET" name="tearDown" finished-at="2024-06-06T20:11:58 EET" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC03_ResetPassword_NewDesign -->
+    </test> <!-- reset password -->
+  </suite> <!-- Search product , change currency and reset the password - on chrome -->
+  <suite started-at="2024-06-06T20:12:42 EET" name="All Test Suite" finished-at="2024-06-06T20:12:42 EET" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- All Test Suite -->
+  <suite started-at="2024-06-06T20:10:17 EET" name="Add to wishlist , comparelist and complete the whole process till seting the order" finished-at="2024-06-06T20:10:53 EET" duration-ms="36230">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T20:10:17 EET" name="add to wishlist - chrome" finished-at="2024-06-06T20:10:25 EET" duration-ms="8691">
+      <class name="testcases.TC06_Add_to_wishlist">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC06_Add_to_wishlist@4d5b6aac]" started-at="2024-06-06T20:10:17 EET" name="setupDriver" finished-at="2024-06-06T20:10:19 EET" duration-ms="2649" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Add_product_to_wishlist()[pri:6, instance:testcases.TC06_Add_to_wishlist@4d5b6aac]" started-at="2024-06-06T20:10:19 EET" name="Add_product_to_wishlist" description="Add product to wishlist" finished-at="2024-06-06T20:10:25 EET" duration-ms="6039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_product_to_wishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC06_Add_to_wishlist@4d5b6aac]" started-at="2024-06-06T20:10:25 EET" name="tearDown" finished-at="2024-06-06T20:10:25 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC06_Add_to_wishlist -->
+    </test> <!-- add to wishlist - chrome -->
+    <test started-at="2024-06-06T20:10:25 EET" name="add to compare list" finished-at="2024-06-06T20:10:34 EET" duration-ms="8369">
+      <class name="testcases.TC07_Add_to_compare_list">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC07_Add_to_compare_list@483f6d77]" started-at="2024-06-06T20:10:25 EET" name="setupDriver" finished-at="2024-06-06T20:10:28 EET" duration-ms="2801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Add_product_to_compare_list()[pri:7, instance:testcases.TC07_Add_to_compare_list@483f6d77]" started-at="2024-06-06T20:10:28 EET" name="Add_product_to_compare_list" description="Add product to compare list" finished-at="2024-06-06T20:10:34 EET" duration-ms="5564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_product_to_compare_list -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC07_Add_to_compare_list@483f6d77]" started-at="2024-06-06T20:10:34 EET" name="tearDown" finished-at="2024-06-06T20:10:34 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC07_Add_to_compare_list -->
+    </test> <!-- add to compare list -->
+    <test started-at="2024-06-06T20:10:34 EET" name="checkout - chrome" finished-at="2024-06-06T20:10:53 EET" duration-ms="19160">
+      <class name="testcases.TC09_CheckOut">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC09_CheckOut@32b260fa]" started-at="2024-06-06T20:10:34 EET" name="setupDriver" finished-at="2024-06-06T20:10:37 EET" duration-ms="3284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Add_product_to_cart_then_checkout()[pri:8, instance:testcases.TC09_CheckOut@32b260fa]" started-at="2024-06-06T20:10:37 EET" name="Add_product_to_cart_then_checkout" description="Complete" finished-at="2024-06-06T20:10:53 EET" duration-ms="15874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_product_to_cart_then_checkout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC09_CheckOut@32b260fa]" started-at="2024-06-06T20:10:53 EET" name="tearDown" finished-at="2024-06-06T20:10:53 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC09_CheckOut -->
+    </test> <!-- checkout - chrome -->
+  </suite> <!-- Add to wishlist , comparelist and complete the whole process till seting the order -->
+  <suite started-at="2024-06-06T20:09:50 EET" name="Regestration , Login and add to cart (0)" finished-at="2024-06-06T20:10:17 EET" duration-ms="26861">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T20:09:50 EET" name="Register with valid data - on firefox" finished-at="2024-06-06T20:09:58 EET" duration-ms="7763">
+      <class name="testcases.TC02_Registration_NewDesign">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Registration_NewDesign@2053d869]" started-at="2024-06-06T20:09:50 EET" name="setupDriver" finished-at="2024-06-06T20:09:55 EET" duration-ms="4832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Regester_WithValidData_P()[pri:3, instance:testcases.TC02_Registration_NewDesign@2053d869]" started-at="2024-06-06T20:09:55 EET" name="Regester_WithValidData_P" description="register with Valid Username and Password" finished-at="2024-06-06T20:09:58 EET" duration-ms="2927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regester_WithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Registration_NewDesign@2053d869]" started-at="2024-06-06T20:09:58 EET" name="tearDown" finished-at="2024-06-06T20:09:58 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Registration_NewDesign -->
+    </test> <!-- Register with valid data - on firefox -->
+    <test started-at="2024-06-06T20:09:58 EET" name="login - firefox" finished-at="2024-06-06T20:10:05 EET" duration-ms="7812">
+      <class name="testcases.TC01_Login_NewDesign">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Login_NewDesign@4bb33f74]" started-at="2024-06-06T20:09:58 EET" name="setupDriver" finished-at="2024-06-06T20:10:03 EET" duration-ms="5032" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Login_with_valid_data_P()[pri:1, instance:testcases.TC01_Login_NewDesign@4bb33f74]" started-at="2024-06-06T20:10:03 EET" name="Login_with_valid_data_P" description="Login to System with Valid Data" finished-at="2024-06-06T20:10:05 EET" duration-ms="2776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_data_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Login_NewDesign@4bb33f74]" started-at="2024-06-06T20:10:05 EET" name="tearDown" finished-at="2024-06-06T20:10:05 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC01_Login_NewDesign -->
+    </test> <!-- login - firefox -->
+    <test started-at="2024-06-06T20:10:05 EET" name="add to cart" finished-at="2024-06-06T20:10:17 EET" duration-ms="11267">
+      <class name="testcases.TC05_Add_to_cart">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC05_Add_to_cart@3d5c822d]" started-at="2024-06-06T20:10:05 EET" name="setupDriver" finished-at="2024-06-06T20:10:10 EET" duration-ms="4568" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Add_product_to_cart_P()[pri:4, instance:testcases.TC05_Add_to_cart@3d5c822d]" started-at="2024-06-06T20:10:10 EET" name="Add_product_to_cart_P" description="Add product to cart" finished-at="2024-06-06T20:10:17 EET" duration-ms="6690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_product_to_cart_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC05_Add_to_cart@3d5c822d]" started-at="2024-06-06T20:10:17 EET" name="tearDown" finished-at="2024-06-06T20:10:17 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC05_Add_to_cart -->
+    </test> <!-- add to cart -->
+  </suite> <!-- Regestration , Login and add to cart (0) -->
+  <suite started-at="2024-06-06T20:10:53 EET" name="Add to wishlist , comparelist and complete the whole process till seting the order - on firefox" finished-at="2024-06-06T20:11:33 EET" duration-ms="39538">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T20:10:53 EET" name="add to wishlist" finished-at="2024-06-06T20:11:06 EET" duration-ms="12997">
+      <class name="testcases.TC06_Add_to_wishlist">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC06_Add_to_wishlist@57d7f8ca]" started-at="2024-06-06T20:10:53 EET" name="setupDriver" finished-at="2024-06-06T20:11:00 EET" duration-ms="6545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Add_product_to_wishlist()[pri:6, instance:testcases.TC06_Add_to_wishlist@57d7f8ca]" started-at="2024-06-06T20:11:00 EET" name="Add_product_to_wishlist" description="Add product to wishlist" finished-at="2024-06-06T20:11:06 EET" duration-ms="6449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_product_to_wishlist -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC06_Add_to_wishlist@57d7f8ca]" started-at="2024-06-06T20:11:06 EET" name="tearDown" finished-at="2024-06-06T20:11:06 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC06_Add_to_wishlist -->
+    </test> <!-- add to wishlist -->
+    <test started-at="2024-06-06T20:11:06 EET" name="add to compare list" finished-at="2024-06-06T20:11:21 EET" duration-ms="14602">
+      <class name="testcases.TC07_Add_to_compare_list">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC07_Add_to_compare_list@67c33749]" started-at="2024-06-06T20:11:06 EET" name="setupDriver" finished-at="2024-06-06T20:11:14 EET" duration-ms="7979" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Add_product_to_compare_list()[pri:7, instance:testcases.TC07_Add_to_compare_list@67c33749]" started-at="2024-06-06T20:11:14 EET" name="Add_product_to_compare_list" description="Add product to compare list" finished-at="2024-06-06T20:11:21 EET" duration-ms="6620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_product_to_compare_list -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC07_Add_to_compare_list@67c33749]" started-at="2024-06-06T20:11:21 EET" name="tearDown" finished-at="2024-06-06T20:11:21 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC07_Add_to_compare_list -->
+    </test> <!-- add to compare list -->
+    <test started-at="2024-06-06T20:11:21 EET" name="checkout - firefox" finished-at="2024-06-06T20:11:33 EET" duration-ms="11924">
+      <class name="testcases.TC09_CheckOut">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC09_CheckOut@fa49800]" started-at="2024-06-06T20:11:21 EET" name="setupDriver" finished-at="2024-06-06T20:11:28 EET" duration-ms="7208" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Add_product_to_cart_then_checkout()[pri:8, instance:testcases.TC09_CheckOut@fa49800]" started-at="2024-06-06T20:11:28 EET" name="Add_product_to_cart_then_checkout" description="Complete" finished-at="2024-06-06T20:11:32 EET" duration-ms="4679" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <span class="cart-label"> is not clickable at point (1090,22) because another element <p class="content"> obscures it
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5a5fa2e7-24bb-4785-9b39-906013746249, clickElement {id=9c08163f-1967-4539-ac36-0c71f801afb0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0.1, moz:accessibilityChecks: false, moz:buildID: 20240526221752, moz:debuggerAddress: 127.0.0.1:15201, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10064, moz:profile: C:\Users\windows\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15201/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (5a5fa2e7-24bb-4785-9b39-906013746249)] -> xpath: //span[@class='cart-label']]
+Session ID: 5a5fa2e7-24bb-4785-9b39-906013746249]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <span class="cart-label"> is not clickable at point (1090,22) because another element <p class="content"> obscures it
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.22'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [5a5fa2e7-24bb-4785-9b39-906013746249, clickElement {id=9c08163f-1967-4539-ac36-0c71f801afb0}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0.1, moz:accessibilityChecks: false, moz:buildID: 20240526221752, moz:debuggerAddress: 127.0.0.1:15201, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10064, moz:profile: C:\Users\windows\AppData\Lo..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:15201/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Element: [[FirefoxDriver: firefox on windows (5a5fa2e7-24bb-4785-9b39-906013746249)] -> xpath: //span[@class='cart-label']]
+Session ID: 5a5fa2e7-24bb-4785-9b39-906013746249
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at pages.P05_Add_product_Page.CLICK_ON_CART(P05_Add_product_Page.java:73)
+at testcases.TC09_CheckOut.Add_product_to_cart_then_checkout(TC09_CheckOut.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_product_to_cart_then_checkout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC09_CheckOut@fa49800]" started-at="2024-06-06T20:11:33 EET" name="tearDown" finished-at="2024-06-06T20:11:33 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC09_CheckOut -->
+    </test> <!-- checkout - firefox -->
+  </suite> <!-- Add to wishlist , comparelist and complete the whole process till seting the order - on firefox -->
+  <suite started-at="2024-06-06T20:09:27 EET" name="Regestration , Login and add to cart" finished-at="2024-06-06T20:09:50 EET" duration-ms="23224">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T20:09:27 EET" name="Register with valid data - chrome" finished-at="2024-06-06T20:09:34 EET" duration-ms="7601">
+      <class name="testcases.TC02_Registration_NewDesign">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC02_Registration_NewDesign@67080771]" started-at="2024-06-06T20:09:27 EET" name="setupDriver" finished-at="2024-06-06T20:09:31 EET" duration-ms="4225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Regester_WithValidData_P()[pri:3, instance:testcases.TC02_Registration_NewDesign@67080771]" started-at="2024-06-06T20:09:31 EET" name="Regester_WithValidData_P" description="register with Valid Username and Password" finished-at="2024-06-06T20:09:34 EET" duration-ms="3313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regester_WithValidData_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC02_Registration_NewDesign@67080771]" started-at="2024-06-06T20:09:34 EET" name="tearDown" finished-at="2024-06-06T20:09:34 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC02_Registration_NewDesign -->
+    </test> <!-- Register with valid data - chrome -->
+    <test started-at="2024-06-06T20:09:34 EET" name="login - chrome" finished-at="2024-06-06T20:09:40 EET" duration-ms="5899">
+      <class name="testcases.TC01_Login_NewDesign">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC01_Login_NewDesign@24fcf36f]" started-at="2024-06-06T20:09:34 EET" name="setupDriver" finished-at="2024-06-06T20:09:37 EET" duration-ms="3035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Login_with_valid_data_P()[pri:1, instance:testcases.TC01_Login_NewDesign@24fcf36f]" started-at="2024-06-06T20:09:37 EET" name="Login_with_valid_data_P" description="Login to System with Valid Data" finished-at="2024-06-06T20:09:40 EET" duration-ms="2859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_with_valid_data_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC01_Login_NewDesign@24fcf36f]" started-at="2024-06-06T20:09:40 EET" name="tearDown" finished-at="2024-06-06T20:09:40 EET" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC01_Login_NewDesign -->
+    </test> <!-- login - chrome -->
+    <test started-at="2024-06-06T20:09:40 EET" name="add to cart" finished-at="2024-06-06T20:09:50 EET" duration-ms="9670">
+      <class name="testcases.TC05_Add_to_cart">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcases.TC05_Add_to_cart@4d02f94e]" started-at="2024-06-06T20:09:40 EET" name="setupDriver" finished-at="2024-06-06T20:09:43 EET" duration-ms="3137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="Add_product_to_cart_P()[pri:4, instance:testcases.TC05_Add_to_cart@4d02f94e]" started-at="2024-06-06T20:09:43 EET" name="Add_product_to_cart_P" description="Add product to cart" finished-at="2024-06-06T20:09:50 EET" duration-ms="6531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_product_to_cart_P -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TC05_Add_to_cart@4d02f94e]" started-at="2024-06-06T20:09:50 EET" name="tearDown" finished-at="2024-06-06T20:09:50 EET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC05_Add_to_cart -->
+    </test> <!-- add to cart -->
+  </suite> <!-- Regestration , Login and add to cart -->
+</testng-results>

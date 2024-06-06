@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value=""/>
+  <test thread-count="5" name="add to cart(failed)">
+    <classes>
+      <class name="testcases.TC05_Add_to_cart">
+        <methods>
+          <include name="Add_product_to_cart_P"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC05_Add_to_cart -->
+    </classes>
+  </test> <!-- add to cart(failed) -->
+  <test thread-count="5" name="checkout(failed)">
+    <classes>
+      <class name="testcases.TC09_CheckOut">
+        <methods>
+          <include name="Add_product_to_cart_then_checkout"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC09_CheckOut -->
+    </classes>
+  </test> <!-- checkout(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

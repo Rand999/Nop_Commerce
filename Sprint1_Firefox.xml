@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regestration , Login and add to cart">
+    <parameter name="browser" value="firefox"/>
+    <test verbose="2" preserve-order="true" name="Register with valid data - on firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testcases.TC02_Registration_NewDesign">
+
+                <methods>
+                    <include name="Regester_WithValidData_P"/>
+
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="login - firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testcases.TC01_Login_NewDesign">
+            <methods>
+                <include name="Login_with_valid_data_P"/>
+<!--                <include name="loginUserCanSearch_P"/>-->
+<!--                <include name="Convert_Currancy"/>-->
+            </methods>
+            </class>
+
+        </classes>
+    </test>
+
+    <test name="add to cart">
+        <classes>
+            <class name="testcases.TC05_Add_to_cart">
+                <methods>
+                    <include name="Add_product_to_cart_P"/>
+
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+
+
+</suite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regestration , Login and add to cart on edge]" guice-stage="DEVELOPMENT">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="Register with valid data - edge(failed)">
+    <classes>
+      <class name="testcases.TC02_Registration_NewDesign">
+        <methods>
+          <include name="Regester_WithValidData_P"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC02_Registration_NewDesign -->
+    </classes>
+  </test> <!-- Register with valid data - edge(failed) -->
+  <test thread-count="5" name="add to cart(failed)">
+    <classes>
+      <class name="testcases.TC05_Add_to_cart">
+        <methods>
+          <include name="Add_product_to_cart_P"/>
+          <include name="setupDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC05_Add_to_cart -->
+    </classes>
+  </test> <!-- add to cart(failed) -->
+</suite> <!-- Failed suite [Regestration , Login and add to cart on edge] -->
