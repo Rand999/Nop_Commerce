@@ -20,7 +20,8 @@ public class TC01_Login_NewDesign extends Testbase{
 
         new P01_HomePage(driver).clickLoginTap();
 
-        new P03_LoginPage_NewDesign(driver).input_email(Reg_email).input_password(Reg_password).click_login_button();
+        new P03_LoginPage_NewDesign(driver).input_email(Reg_email)
+                .input_password(Reg_password).click_login_button();
         new PageBase(driver).Wait();
         Assert.assertTrue(new P03_LoginPage_NewDesign(driver).check_login_logo(),"login faild");
     }
